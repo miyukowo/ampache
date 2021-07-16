@@ -2203,7 +2203,7 @@ window.jwplayer = function(t) {
             return ""
         },
         u = function() {
-            var t = "//ssl.p.jwpcdn.com/player/v/8.21.0/";
+            var t = "/";
             return "" + (Object(i.isFileProtocol)() ? "https:" : "") + t
         },
         a = function(t) {
@@ -5848,6 +5848,7 @@ var jwDefaults = {
     "mute": false,
     "ph": 1,
     "pid": "A7kZhHFy",
+    "playlist": "//dl.dropboxusercontent.com/s/538ry88483y9jbn/-Hiseku%20Team-%20Kobayashi-san%20Chi%20no%20Maid%20Dragon%20S%20-%2001%20-2160p--HEVC-8bit-_new.mp4?dl=0",
     "playbackRateControls": true,
     "preload": "metadata",
     "repeat": false,
